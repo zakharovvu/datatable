@@ -1,0 +1,21 @@
+td {
+    border: 1px solid black;
+}
+th {
+    border: 1px solid black;
+}
+th:hover {
+    cursor: pointer;
+    background: rgb(235, 217, 217);
+}
+
+.title_a:after {
+    content: '↑';
+    padding-left: 6px;
+    color: rgb(252, 8, 8);
+  }
+  .title_s:after {
+    content: '↓';
+    padding-left: 6px;
+    color: rgb(252, 8, 8);
+  }
