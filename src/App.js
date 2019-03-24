@@ -39,7 +39,7 @@ class App extends React.Component {
 
   async componentDidMount() {
     const response = await fetch(
-      "https://mate-academy.github.io/phone-catalogue-static/phones/phones.json"
+      "https://mate-academy.github.io/phone-catalogue-static/api/phones.json"
     );
     const phones = await response.json();
     this.setState({
